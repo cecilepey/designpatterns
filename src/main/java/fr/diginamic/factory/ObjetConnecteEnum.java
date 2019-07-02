@@ -8,7 +8,12 @@ package fr.diginamic.factory;
  */
 public enum ObjetConnecteEnum {
 
-	TELEPHONE("Téléphone portable"), TABLETTE("Tablette"), ENCEINTE_CONNECTEE("Enceinte connectée");
+	/** TELEPHONE : ObjetConnecteEnum */
+	TELEPHONE("Téléphone portable"),
+	/** TABLETTE : ObjetConnecteEnum */
+	TABLETTE("Tablette"),
+	/** ENCEINTE_CONNECTEE : ObjetConnecteEnum */
+	ENCEINTE_CONNECTEE("Enceinte connectée");
 
 	/** type : String : type d'absence possible */
 	private String ObjetConnecte;
