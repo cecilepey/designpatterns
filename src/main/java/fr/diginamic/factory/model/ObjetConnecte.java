@@ -1,12 +1,14 @@
 package fr.diginamic.factory.model;
 
+import fr.diginamic.factory.Chargeable;
+
 /**
  * Classe qui représente un objet connecté
  * 
  * @author Cécile Peyras
  *
  */
-public abstract class ObjetConnecte {
+public abstract class ObjetConnecte implements Chargeable {
 
 	private int limiteVolts;
 
